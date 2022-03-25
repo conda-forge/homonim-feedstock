@@ -5,7 +5,7 @@ Home: https://github.com/dugalh/homonim
 
 Package license: AGPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/homonim-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/homonim-feedstock/blob/main/LICENSE.txt)
 
 Summary: Radiometric homogenisation of aerial and satellite imagery by fusion with
 satellite surface reflectance data.
@@ -28,8 +28,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15483&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/homonim-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15483&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/homonim-feedstock?branchName=main">
       </a>
     </td>
   </tr>

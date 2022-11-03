@@ -7,19 +7,24 @@ Package license: AGPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/homonim-feedstock/blob/main/LICENSE.txt)
 
-Summary: Radiometric homogenisation of aerial and satellite imagery by fusion with
-satellite surface reflectance data.
+Summary: Correct aerial and satellite imagery to surface reflectance.
 
 
-`homonim` corrects multi-spectral aerial and satellite imagery to
-approximate surface reflectance, by fusion with concurrent and collocated
-satellite surface reflectance data.  It is a form of *spectral
-harmonisation*, that  adjusts for spatially varying atmospheric and
-anisotropic (BRDF) effects, without the need for manual reflectance
-measurements, or target placements.
+Development: https://github.com/dugalh/homonim
+
+Documentation: https://homonim.readthedocs.io
+
+`homonim` provides a command line interface and API for correcting
+remotely sensed imagery to approximate surface reflectance.  It is a form
+of *spectral harmonisation*, that adjusts for spatially varying
+atmospheric and anisotropic (BRDF) effects, by fusion with satellite
+surface reflectance data.  Manual reflectance measurements and target
+placements are not required.
+
 It is useful as a pre-processing step for quantitative mapping
-applications, such as biomass estimation or precision agriculture,
-and can be applied to drone, aerial or satellite imagery.
+applications such as biomass estimation or precision agriculture, and for
+reducing seamlines and other visual artefacts in image mosaics.  It can be
+applied to multi-spectral drone, aerial and satellite imagery.
 
 
 Current build status

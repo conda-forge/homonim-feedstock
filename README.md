@@ -1,11 +1,11 @@
-About homonim
-=============
+About homonim-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/homonim-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dugalh/homonim
 
 Package license: AGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/homonim-feedstock/blob/main/LICENSE.txt)
 
 Summary: Correct aerial and satellite imagery to surface reflectance.
 

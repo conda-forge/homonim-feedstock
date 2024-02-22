@@ -1,5 +1,5 @@
 {% set name = "homonim" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/homonim-{{ version }}.tar.gz
-  sha256: aaf409296066bca6e2dcb1582948af2b0f7bb49e360620b267b2bf6d68bacc5c
+  sha256: 7b7f69627ba26179558740e4c770e264b3455edf3bcc5f79d5a1fc400011a824
 
 build:
   entry_points:

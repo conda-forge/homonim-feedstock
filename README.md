@@ -9,24 +9,9 @@ Package license: AGPL-3.0-only
 
 Summary: Correct drone, aerial and satellite imagery to surface reflectance.
 
-
 Development: https://github.com/leftfield-geospatial/homonim
 
 Documentation: https://homonim.readthedocs.io
-
-`homonim` provides a command line interface and API for correcting
-remotely sensed imagery to approximate surface reflectance.  It is a form
-of *spectral harmonisation*, that adjusts for spatially varying
-atmospheric and anisotropic (BRDF) effects, by *fusion* with satellite
-surface reflectance data.  Manual reflectance measurements and target
-placements are not required.
-
-`homonim` is useful for pre-processing in quantitative mapping
-applications, and for reducing seamlines and other visual artefacts in
-image mosaics.  It can be applied to multi-spectral drone, aerial and
-satellite imagery.  The consistency of multi-temporal and multi-sensor
-data can improved through its use.
-
 
 Current build status
 ====================

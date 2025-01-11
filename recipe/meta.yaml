@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/homonim-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/homonim-{{ version }}.tar.gz
   sha256: 0b918510750d831785b76a1e5d8de7a969adee9e04cbd1ce794542b3a166d214
 
 build:
@@ -14,18 +14,18 @@ build:
     - homonim=homonim.cli:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 2
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - setuptools
     - pip
   run:
     - click >=8
     - numpy >=1.19
     - opencv >=4.5
-    - python >=3.8
+    - python >={{ python_min }}
     - pyyaml >=5.4
     - rasterio >=1.1
     - tqdm >=4.6
@@ -41,6 +41,7 @@ test:
   requires:
     - pip
     - libopencv *=headless*  # [linux]
+    - python {{ python_min }}
 
 about:
   summary: Correct drone, aerial and satellite imagery to surface reflectance.
